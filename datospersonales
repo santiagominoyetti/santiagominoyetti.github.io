@@ -1,0 +1,670 @@
+<!DOCTYPE html> == $0
+<html lang="en">
+
+<div id="root"><div class="_app_919mw_1"><div data-testid="salesforce-banner" class="_bannerContainer_1lkva_2"><a href="https://www.salesforce.com/?placement=helmet&amp;utm_medium=Referral&amp;utm_source=Tableau" rel="noreferrer" class="_link_1lkva_26" aria-label="Logotipo de Salesforce"><i class="_icon_1lkva_17"></i></a></div><header class="_header_1qykc_23"><div class="_navBar_1qykc_41"><div class="_left_1qykc_42"><a class="_menuTitle_1qykc_89" data-testid="new-logo" href="/app/discover"><img class="_logo_1qykc_93" alt="Logotipo" src="/app/assets/tableau-public-logo-rgb.07774149.svg"></a><div class="_horizontal_1qykc_191 _menu_1qykc_82"><div class="_menuLink_1qykc_106 _createLink_1qykc_270" data-testid="create" aria-label="create" role="button" aria-expanded="false"><div class="">Crear<i data-testid="create-icon" class="_createIcon_1ch8m_2" aria-hidden="true"></i></div></div><a class="_menuLink_1qykc_106" data-testid="Header-menuLink-resources" href="/app/learn"><span class="_underlineContainer_1qykc_167">Aprender<span class="_underline_1qykc_167"></span></span></a></div></div><div class="_right_1qykc_43"><div class="_horizontal_1qykc_191 _menu_1qykc_82"><div aria-expanded="false" aria-haspopup="true" aria-label="Activar el menú de opciones del usuario" class="_userAvatarButton_1qykc_248" data-testid="AuthSection-user-avatar-button" role="button" tabindex="0"><img class="_userAvatar_15qp8_2" src="/app/assets/defaultAvatar.6de20db2.png" alt="santiago.minoyetti"></div></div><a class="_searchIconLink_1lsts_1" aria-label="Ir a la búsqueda" href="/app/search/all"><i class="_searchIconBlue_1lsts_5" aria-hidden="true"></i></a><button class="_hamburgerIconNew_lhtgm_19" type="button" tabindex="0" aria-label="Abrir el menú de navegación" aria-haspopup="true" aria-expanded="false"><i aria-hidden="true"></i></button></div></div></header><div class="Toastify"></div><div class="_banner_17xpj_24" data-testid="announcementBanner"><div class="_content_17xpj_32">¿Quiénes son los DataFam y qué hacen en Tableau Public? <a href="https://www.youtube.com/watch?v=3RjtQlrGInE&amp;ab_channel=Tableau" rel="noreferrer noopener" target="_blank">Vea un resumen de 2 minutos →</a></div></div><div class="_content_919mw_7"><div class="_homeHeaderContainer_kv7ag_23"><div class="_homeHeader_kv7ag_23"><div class="_title_kv7ag_40"><h1>TP</h1> de <a data-testid="VizHomeHeader-titleLink" href="/app/profile/santiago.minoyetti">Santiago Minoyetti</a></div><div class="_vizControlBar_kv7ag_57"><button class="_tile_tm02q_117" type="button" aria-label="Editar" data-tip="Editar" data-for="vizhome-web-edit-tooltip" aria-disabled="false" currentitem="true"><i id="webEditAuthorIcon" data-testid="webEditAuthorIcon" class="_webEditAuthorIcon_tm02q_76" aria-hidden="true"></i></button><div class="__react_component_tooltip t18c550df-dae4-45b9-a3db-81321ec097a1 border place-bottom type-custom _tooltip_18mfk_24" id="vizhome-web-edit-tooltip" data-id="tooltip" style="left: 1178px; top: 176px;"><style aria-hidden="true">
+  	.t18c550df-dae4-45b9-a3db-81321ec097a1 {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.t18c550df-dae4-45b9-a3db-81321ec097a1.place-top {
+        margin-top: -10px;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-bottom {
+        margin-top: 10px;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-left {
+        margin-left: -10px;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-right {
+        margin-left: 10px;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .t18c550df-dae4-45b9-a3db-81321ec097a1.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>Editar</div><button type="button" data-tip="Añadir favorito" data-for="favorite-button" aria-label="Botón Favoritos" class="_tile_tm02q_117" tabindex="0" currentitem="true"><i class="_favoriteUnselectedIcon_zgdwv_51 _button_tszss_1"></i></button><div class="__react_component_tooltip tf0f98466-1b89-4ea2-b1e5-8403f2974879 border place-bottom type-custom _tooltip_18mfk_24" id="favorite-button" data-id="tooltip" style="left: 1196px; top: 176px;"><style aria-hidden="true">
+  	.tf0f98466-1b89-4ea2-b1e5-8403f2974879 {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-top {
+        margin-top: -10px;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-bottom {
+        margin-top: 10px;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-left {
+        margin-left: -10px;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-right {
+        margin-left: 10px;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .tf0f98466-1b89-4ea2-b1e5-8403f2974879.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>Añadir favorito</div><button type="button" data-tip="Compartir" aria-labelledby="vizhome-share-tooltip" data-for="vizhome-share-tooltip" class="_tile_tm02q_117" tabindex="0" currentitem="true"><i id="shareIcon" data-testid="shareIcon" class="_shareIcon_tm02q_94" aria-hidden="true"></i></button><div class="__react_component_tooltip tbdc34708-ce37-4efe-bd3b-503fa5c209da border place-bottom type-custom _tooltip_18mfk_24" id="vizhome-share-tooltip" data-id="tooltip" style="left: 1253px; top: 176px;"><style aria-hidden="true">
+  	.tbdc34708-ce37-4efe-bd3b-503fa5c209da {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-top {
+        margin-top: -10px;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-bottom {
+        margin-top: 10px;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-left {
+        margin-left: -10px;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-right {
+        margin-left: 10px;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .tbdc34708-ce37-4efe-bd3b-503fa5c209da.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>Compartir</div><button type="button" data-tip="Descargar" aria-labelledby="vizhome-download-tooltip" data-for="vizhome-download-tooltip" class="_tile_tm02q_117" tabindex="0" aria-disabled="false" currentitem="false"><i id="downloadIcon" data-testid="downloadIcon" class="_downloadIcon_tm02q_88" aria-hidden="true"></i></button><div class="__react_component_tooltip t72296b8a-b2ae-4d87-b25e-ec51b93e07a6 place-bottom type-dark" id="vizhome-download-tooltip" data-id="tooltip"><style aria-hidden="true">
+  	.t72296b8a-b2ae-4d87-b25e-ec51b93e07a6 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-top {
+        margin-top: -10px;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-bottom {
+        margin-top: 10px;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-left {
+        margin-left: -10px;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-right {
+        margin-left: 10px;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t72296b8a-b2ae-4d87-b25e-ec51b93e07a6.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><button data-testid="nominate-viz-button" type="button" aria-label="Nominada a Visualización del día" data-tip="Nominada a Visualización del día" data-for="vizhome-nominate-viz-tooltip" class="_tile_tm02q_117" tabindex="0" aria-disabled="false" currentitem="true"><i class="_nominateVizIcon_tm02q_147"></i></button><div class="__react_component_tooltip t49640c10-e571-4387-b77e-39bc5b784e6e border place-bottom type-custom _vizHeaderItemTooltip_18mfk_41" id="vizhome-nominate-viz-tooltip" data-id="tooltip" style="left: 1275px; top: 176px;"><style aria-hidden="true">
+  	.t49640c10-e571-4387-b77e-39bc5b784e6e {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.t49640c10-e571-4387-b77e-39bc5b784e6e.place-top {
+        margin-top: -10px;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-bottom {
+        margin-top: 10px;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-left {
+        margin-left: -10px;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-right {
+        margin-left: 10px;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .t49640c10-e571-4387-b77e-39bc5b784e6e.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>Nominada a Visualización del día</div><button type="button" data-tip="Configuración" aria-labelledby="vizhome-settings-tooltip" data-for="vizhome-settings-tooltip" class="_tile_tm02q_117" tabindex="0" currentitem="true"><i id="settingsIcon" data-testid="settingsIcon" class="_settingsIcon_tm02q_100" aria-hidden="true"></i></button><div class="__react_component_tooltip t9aef7f5d-cb7f-4253-a254-3fc4742f15de border place-bottom type-custom _tooltip_18mfk_24" id="vizhome-settings-tooltip" data-id="tooltip" style="left: 1374px; top: 76px;"><style aria-hidden="true">
+  	.t9aef7f5d-cb7f-4253-a254-3fc4742f15de {
+	    color: #292b2c;
+	    background: #fff;
+	    border: 1px solid #d4d4d4;
+  	}
+
+  	.t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-top {
+        margin-top: -10px;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-top::before {
+        border-top: 8px solid #d4d4d4;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-bottom {
+        margin-top: 10px;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-bottom::before {
+        border-bottom: 8px solid #d4d4d4;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: transparent;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-left {
+        margin-left: -10px;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-left::before {
+        border-left: 8px solid #d4d4d4;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-right {
+        margin-left: 10px;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-right::before {
+        border-right: 8px solid #d4d4d4;
+    }
+    .t9aef7f5d-cb7f-4253-a254-3fc4742f15de.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: transparent;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style>Configuración</div></div><div class="_mobileVizControlBar_kv7ag_71"><button type="button" title="Expandir" class="_tile_tm02q_117" tabindex="0"><i aria-hidden="true" data-testid="expandIcon" class="_expandIcon_tm02q_106"></i></button></div></div></div><div class="_container_16i18_1"><div class="_embeddedVizWrapper_ly9t9_1" id="embedded-viz-wrapper"><iframe frameborder="0" allowtransparency="true" allowfullscreen="true" title="Visualización de datos" marginheight="0" marginwidth="0" scrolling="no" src="https://public.tableau.com/views/TP_17143442631170/Dashboard2?%3Adisplay_static_image=y&amp;%3AbootstrapWhenNotified=true&amp;%3Aembed=true&amp;%3Alanguage=es-ES&amp;:embed=y&amp;:showVizHome=n&amp;:apiID=host0#navType=0&amp;navSrc=Parse" style="display: block; width: 1366px; height: 795px; visibility: visible;"></iframe></div></div><div class="_container_kpcz3_172" data-testid="VizDetails-container"><h2><span class="_title_kpcz3_188">Detalles </span><button class="_editDetailsButton_kpcz3_286" type="button" aria-label="Editar detalles" data-tip="Editar detalles" data-for="vizhome-edit-details-tooltip" currentitem="false"><i data-testid="vizhome-edit-details-icon" aria-hidden="true"></i></button><div class="__react_component_tooltip td67d6bda-81de-4a3a-bb17-ed251aaed7fd place-bottom type-dark" id="vizhome-edit-details-tooltip" data-id="tooltip"><style aria-hidden="true">
+  	.td67d6bda-81de-4a3a-bb17-ed251aaed7fd {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-top {
+        margin-top: -10px;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-bottom {
+        margin-top: 10px;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-left {
+        margin-left: -10px;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-right {
+        margin-left: 10px;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .td67d6bda-81de-4a3a-bb17-ed251aaed7fd.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></h2><div class="_stats_kpcz3_223" data-testid="VizDetails-stats"><div class="_vizStats_kpcz3_219"><button class="_favoriteCount_zgdwv_27" type="button" aria-checked="false" role="checkbox" tabindex="0" data-tip="Añadir favorito" aria-label="Añadir favorito" data-for="favoriteIcon-tooltip-TP_17143442631170" currentitem="false"><i class="_favoriteUnselectedIcon_zgdwv_51 _button_tszss_1"></i>0</button><div class="__react_component_tooltip t2386fc78-c595-467f-a088-058afcc83c17 place-bottom type-dark" id="favoriteIcon-tooltip-TP_17143442631170" data-id="tooltip"><style aria-hidden="true">
+  	.t2386fc78-c595-467f-a088-058afcc83c17 {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t2386fc78-c595-467f-a088-058afcc83c17.place-top {
+        margin-top: -10px;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-bottom {
+        margin-top: 10px;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-left {
+        margin-left: -10px;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-right {
+        margin-left: 10px;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t2386fc78-c595-467f-a088-058afcc83c17.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div><span class="_viewCount_771br_23" data-tip="4 vistas" aria-label="4 vistas" data-for="viewCount-tooltip-TP_17143442631170" tabindex="0" currentitem="false"><i class="_viewCountIcon_771br_30" data-testid="view-count-icon"></i>4</span><div class="__react_component_tooltip t5c8e6fd5-0953-495c-9dd1-af9c9030a03d place-bottom type-dark" id="viewCount-tooltip-TP_17143442631170" data-id="tooltip"><style aria-hidden="true">
+  	.t5c8e6fd5-0953-495c-9dd1-af9c9030a03d {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+  	}
+
+  	.t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-top {
+        margin-top: -10px;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-top::before {
+        border-top: 8px solid transparent;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-top::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-top-color: #222;
+        border-top-style: solid;
+        border-top-width: 6px;
+    }
+
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-bottom {
+        margin-top: 10px;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-bottom::before {
+        border-bottom: 8px solid transparent;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-bottom::after {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        top: -6px;
+        left: 50%;
+        margin-left: -8px;
+        border-bottom-color: #222;
+        border-bottom-style: solid;
+        border-bottom-width: 6px;
+    }
+
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-left {
+        margin-left: -10px;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-left::before {
+        border-left: 8px solid transparent;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-left::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        right: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-left-color: #222;
+        border-left-style: solid;
+        border-left-width: 6px;
+    }
+
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-right {
+        margin-left: 10px;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-right::before {
+        border-right: 8px solid transparent;
+    }
+    .t5c8e6fd5-0953-495c-9dd1-af9c9030a03d.place-right::after {
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        left: -6px;
+        top: 50%;
+        margin-top: -4px;
+        border-right-color: #222;
+        border-right-style: solid;
+        border-right-width: 6px;
+    }
+  </style></div></div><div class="_statBlocBreak_kpcz3_236"></div></div><div class="_columns_kpcz3_192"><div class="_column_kpcz3_192"><p class="_description_kpcz3_276" data-testid="VizDetails-description">TP </p><div class="_linkRow_kpcz3_251"><span><strong>Publicadas:</strong> 28 abr 2024</span><span><strong>Actualizado:</strong> 28 abr 2024</span></div></div><div class="_column_kpcz3_192"></div></div></div><div class="_container_1qx2j_1"><div><div data-testid="discover-loading-placeholder"><div class="_loadingContainer_vanse_24"><div role="alert" aria-busy="true" class="_container_1012a_1"><i data-testid="loading-spinner"></i></div></div></div></div></div></div><footer class="_footer_199x0_2"><div><div class="_rowWrap_199x0_22"><div><div class="_localeSwitcher_1thfh_2"><div class="_menuWrap_1thfh_20"><span aria-label="Idioma seleccionado" class="_selectedLocale_1thfh_34">Español</span></div><ul role="listbox" aria-label="Seleccione su idioma de preferencia" class="_localeList_1thfh_65"><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">Deutsch</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">English (UK)</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">English (US)</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="true">Español</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">Français (Canada)</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">Français (France)</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">Italiano</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">日本語</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">한국어</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">Português</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">Svenska</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">ไทย</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">简体中文</li><li role="option" class="_localeListItem_1thfh_91" aria-selected="false">繁體中文</li></ul></div></div><ul class="_list_199x0_38 _primaryList_199x0_54"><li><a href="https://trust.tableau.com/" rel="noopener noreferrer" class="_link_199x0_66 _primaryLink_199x0_76" target="_blank">Estado del sistema</a></li><li><a href="https://www.tableau.com/es-es/blog/tableau-public" rel="noopener noreferrer" class="_link_199x0_66 _primaryLink_199x0_76" target="_blank">Blog</a></li><li><a href="https://community.tableau.com/s/tableau-public-faq" rel="noopener noreferrer" class="_link_199x0_66 _primaryLink_199x0_76" target="_blank">Preguntas frecuentes</a></li><li><a class="_link_199x0_66 _primaryLink_199x0_76" href="/app/about">Acerca de nosotros</a></li><li><a href="https://www.tableau.com/es-es/products" rel="noopener noreferrer" class="_link_199x0_66 _primaryLink_199x0_76" target="_blank">Productos de Tableau</a></li><li><a href="https://www.tableau.com/es-es/about/careers" rel="noopener noreferrer" class="_link_199x0_66 _primaryLink_199x0_76" target="_blank">Empleo</a></li><li><a class="_link_199x0_66 _primaryLink_199x0_76" href="/app/contact-us">Contacto</a></li></ul></div></div><div><ul class="_list_199x0_38 _secondaryList_199x0_61"><li><a href="https://www.tableau.com/es-es/legal" rel="noopener noreferrer" class="_link_199x0_66 _secondaryLink_199x0_81" target="_blank">Legal</a></li><li><a href="https://www.salesforce.com/es/company/privacy/" rel="noopener noreferrer" class="_link_199x0_66 _secondaryLink_199x0_81" target="_blank">Privacidad</a></li><li><a class="_link_199x0_66 _secondaryLink_199x0_81" href="/app/data-policy">Directiva de datos</a></li><li><a href="https://kb.tableau.com/articles/howto/completely-removing-tableau-desktop?lang=es-es" rel="noopener noreferrer" class="_link_199x0_66 _secondaryLink_199x0_81" target="_blank">Desinstalar</a></li><li><button class="_secondaryBtn_199x0_88">Preferencias de cookies</button></li><li><a href="https://www.salesforce.com/form/other/privacy-request/" rel="noopener noreferrer" class="_link_199x0_66 _secondaryLink_199x0_81 _cpraLink_199x0_152" target="_blank">Sus opciones de privacidad</a></li></ul></div><div class="_socialListWrap_199x0_104"><ul class="_list_199x0_38 _socialList_199x0_104"><li><a href="https://www.linkedin.com/company/tableau-software" rel="noopener noreferrer" target="_blank"><i class="_socialIcon_199x0_119 _socialIconLinkedin_199x0_133" role="button" aria-label="Enlace de LinkedIn"></i></a></li><li><a href="https://www.facebook.com/TableauPublic" rel="noopener noreferrer" target="_blank"><i class="_socialIcon_199x0_119 _socialIconFacebook_199x0_129" role="button" aria-label="Enlace de Facebook"></i></a></li><li><a href="https://www.twitter.com/tableaupublic" rel="noopener noreferrer" target="_blank"><i class="_socialIcon_199x0_119 _socialIconTwitter_199x0_125" role="button" aria-label="Enlace de Twitter"></i></a></li></ul></div><div><p class="_copyright_199x0_137">© 2024 Tableau Software, LLC, empresa del grupo Salesforce. Todos los derechos reservados.</p></div></footer></div></div>
